@@ -1,2 +1,151 @@
-# 2026-27_WD_ActivityBasedLearning
-wd abl
+TASK1:-
+HTML:-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">MyPortfolio</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h3>Hello, I am</h3>
+        <h1> KAGITHA MOKSHITH PANDU</h1>
+        <h2>Web Developer & Student</h2>
+        <p>
+            Welcome to my personal portfolio website.
+            I love coding, designing and learning new technologies.
+        </p>
+        <a href="#about" class="btn">Explore More</a>
+    </div>
+
+    <div class="profile">
+        <img src="profile.jpg" alt="My Profile Photo">
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate student interested in web development
+        and programming. I enjoy creating websites and learning
+        new technical skills.
+    </p>
+</section>
+
+<section id="education" class="section">
+    <h2>Educational Qualifications</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Graduation</h3>
+            <p>B.Tech / Degree</p>
+            <p>NRI UNIVERSITY</p>
+            <p>Year: 2026 - Present</p>
+        </div>
+
+        <div class="card">
+            <h3>Intermediate</h3>
+            <p>SRI SRINIVASA GRAVIITY</p>
+            <p>Percentage: 85%</p>
+        </div>
+
+        <div class="card">
+            <h3>School</h3>
+            <p>NARAYANA</p>
+            <p>Percentage: 90%</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <div>HTML <span>90%</span></div>
+        <div>CSS <span>85%</span></div>
+        <div>Python <span>75%</span></div>
+        <div>Java <span>65%</span></div>
+    </div>
+</section>
+
+<section id="hobbies" class="section">
+    <h2>My Hobbies</h2>
+    <div class="cards">
+        <div class="card">Coding</div>
+        <div class="card">Listening to Music</div>
+        <div class="card">Reading Books</div>
+        <div class="card">Playing Games</div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>My Projects</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>A personal website using HTML and CSS.</p>
+        </div>
+
+        <div class="card">
+            <h3>Student Management System</h3>
+            <p>A student information system using Python.</p>
+        </div>
+
+        <div class="card">
+            <h3>Calculator</h3>
+            <p>A simple calculator application.</p>
+        </div>
+    </div>
+</section>
+
+<section id="achievements" class="section">
+    <h2>Achievements</h2>
+    <div class="card">
+        <p>🏆 Completed HTML and CSS Certification.</p>
+        <p>🏆 Participated in College Technical Events.</p>
+        <p>🏆 Completed Python Programming Course.</p>
+    </div>
+</section>
+
+<section id="resume" class="section">
+    <h2>My Resume</h2>
+    <p>Click below to download my resume.</p>
+    <a href="resume.pdf" download class="btn">
+        Download Resume
+    </a>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: mokshithkagitha2009@gmail.com</p>
+    <p>Phone: +91 7997666446</p>
+    <p>Location: Andhra Pradesh, India</p>
+    <a href="mokshithkagitha2009@gmail.com" class="btn">
+        Send Email
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 KAGITHA MOKSHITH PANDU. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+CSS:-
